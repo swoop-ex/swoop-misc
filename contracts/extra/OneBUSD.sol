@@ -11,12 +11,12 @@ import "@openzeppelin/contracts/utils/Address.sol";
 import "@openzeppelin/contracts/presets/ERC20PresetMinterPauser.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract OneChainlink is ERC20PresetMinterPauser, Ownable {
+contract OneBUSD is ERC20PresetMinterPauser, Ownable {
   using SafeERC20 for IERC20;
   using Address for address;
   using SafeMath for uint;
 
-  constructor() public ERC20PresetMinterPauser("OneChainlink", "1LINK") {
+  constructor() public ERC20PresetMinterPauser("OneBUSD", "1BUSD") {
       _mint(msg.sender, 1000000000000000000000000);
   }
 }

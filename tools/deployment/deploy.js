@@ -35,6 +35,7 @@ async function deploy() {
   }
 
   if (argv.extra) {
+    contracts['OneBUSD'] = [];
     contracts['OneBTC'] = [];
     contracts['OneETH'] = [];
     contracts['OneChainlink'] = [];

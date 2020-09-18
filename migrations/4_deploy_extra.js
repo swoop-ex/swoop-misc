@@ -1,6 +1,7 @@
 const { getAddress } = require("@harmony-js/crypto");
 
 const contracts = [
+  'OneBUSD',
   'OneBTC',
   'OneETH',
   'OneChainlink',
