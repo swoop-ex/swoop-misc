@@ -20,6 +20,7 @@ Since the contract doesn't exist on our chain we will also have to deploy it in 
 
 There are a set of extra HRC20 token contracts that can be deployed for testing, these are:
 
+- OneBUSD
 - OneBTC
 - OneETH
 - OneChainlink

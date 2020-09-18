@@ -1,7 +1,3 @@
-/**
- *Submitted for verification at Bscscan.com on 2020-09-04
-*/
-
 pragma solidity =0.6.6;
 
 import "@openzeppelin/contracts/math/SafeMath.sol";
