@@ -29,10 +29,10 @@ There are a set of extra HRC20 token contracts that can be deployed for testing,
 
 | Contract     | Testnet                                                                                 | Mainnet     |
 | -----------  | --------------------------------------------------------------------------------------- | ----------- |
-| Multicall    | 0x7adcb8c3ce1b239a77208ebc17d89cd422c98a58 (one10twt3s7wrv3e5aeq367p0kyu6s3vnzjck9gx3d) | 0x7fcc8852ad00ddabe4f9de44b6d03343b2cac41b (one10lxgs54dqrw6he8emeztd5pngwev43qmwmvvga) |
-| WONE         | 0x0110886b8ca6e5788a0bd5e529cb2daa27dd923b (one1qyggs6uv5mjh3zst6hjjnjed4gnamy3mw897v0) | 0x335a59ef2257b330c33d2a5a8cb77a67209a6826 (one1xdd9nmez27enpsea9fdgedm6vusf56pxskglpw) |
-| OneBTC       | 0xf096badbc043b03a03117839bc811fbfce04065d (one17ztt4k7qgwcr5qc30qumeqglhl8qgpjan0yg9w) | 0x321bb84a35fabe2c8293489df43630314a39e89d (one1xgdmsj34l2lzeq5nfzwlgd3sx99rn6ya3wvc7e) |
-| OneETH       | 0x3802c244c1adf143fa4805f16c0ff3c7a5f208a0 (one18qpvy3xp4hc587jgqhckcrlnc7jlyz9qm6xu8c) | 0xceaea5f21577095072f27e86b917d679c12db1c4 (one1e6h2tus4wuy4quhj06rtj97k08qjmvwydap46r) |
-| OneChainlink | 0x3a518181cd6ffeddd1cad69267f7e38e081ccca1 (one18fgcrqwddlldm5w266fx0alr3cypen9pkr7jwm) | 0x39b0c3c0510d40b05a98718fc73ad55713ce6594 (one18xcv8sz3p4qtqk5cwx8uwwk42ufuuev5wk2phx) |
-| OneSeed      | 0x7fee0c635306454cd6eb0c86969da27026054173 (one10lhqcc6nqez5e4htpjrfd8dzwqnq2stn0vm7xh) | 0x861ff1faf84e149cddbb4e5103e6087a72c6096c (one1sc0lr7hcfc2fehdmfegs8esg0fevvztvncmddp) |
+| Multicall    | 0x7834f716600d601c7de3e591eedd8d5731e9965f (one10q60w9nqp4spcl0rukg7ahvd2uc7n9jlawnv3g) | 0x7834f716600d601c7de3e591eedd8d5731e9965f (one10q60w9nqp4spcl0rukg7ahvd2uc7n9jlawnv3g) |
+| WONE         | 0x63b44405ce864a489a6244c912415d9e75144e73 (one1vw6ygpwwse9y3xnzgny3ys2ane63gnnnl55fd9) | 0x63b44405ce864a489a6244c912415d9e75144e73 (one1vw6ygpwwse9y3xnzgny3ys2ane63gnnnl55fd9) |
+| OneBTC       | 0xb9a8bc4996476587a63f4c39165b4572d1388dcd (one1hx5tcjvkgajc0f3lfsu3vk69wtgn3rwd6600y2) | 0xb9a8bc4996476587a63f4c39165b4572d1388dcd (one1hx5tcjvkgajc0f3lfsu3vk69wtgn3rwd6600y2) |
+| OneETH       | 0x24fc4aa5e7b03e720fe95ea36be469eb5da40956 (one1yn7y4f08kql8yrlft63kherfadw6gz2kru0uzw) | 0x24fc4aa5e7b03e720fe95ea36be469eb5da40956 (one1yn7y4f08kql8yrlft63kherfadw6gz2kru0uzw) |
+| OneChainlink | 0x02f234cb71378d062006703a449684963958aa01 (one1qterfjm3x7xsvgqxwqayf95yjcu432sp7tje99) | 0x02f234cb71378d062006703a449684963958aa01 (one1qterfjm3x7xsvgqxwqayf95yjcu432sp7tje99) |
+| OneSeed      | 0xad490f287cdb6a5b74e09341c5e61e1ada7a28a9 (one144ys72rumd49ka8qjdqutes7rtd8529f2wu458) | 0xad490f287cdb6a5b74e09341c5e61e1ada7a28a9 (one144ys72rumd49ka8qjdqutes7rtd8529f2wu458) |
 
