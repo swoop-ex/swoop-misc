@@ -1,14 +1,14 @@
 {
-  "name": "@harmony-swoop/periphery",
-  "version": "1.1.0",
-  "description": "🎚 Peripheral smart contracts for interacting with Uniswap V2",
+  "name": "@harmony-swoop/misc",
+  "version": "1.0.0",
+  "description": "Misc smart contracts to support Swoop",
   "engines": {
     "node": ">=10"
   },
-  "homepage": "https://swoop.demo.harmony.one",
+  "homepage": "https://swoop.exchange",
   "repository": {
     "type": "git",
-    "url": "https://github.com/harmony-one/swoop-periphery"
+    "url": "https://github.com/harmony-one/swoop-misc"
   },
   "files": [
     "build",
