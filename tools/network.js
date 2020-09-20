@@ -18,6 +18,15 @@ module.exports = class Network {
     var url, chainType, chainId;
 
     switch (this.network) {
+      case 'localnet':
+      case 'local':
+        this.network = 'localnet';
+        console.log('Using the localnet network...\n');
+        url = "http://localhost:9500";
+        chainType = ChainType.Harmony;
+        chainId = ChainID.HmyLocal;
+        break;
+
       case 'testnet':
         console.log('Using the testnet network...\n');
         url = "https://api.s0.b.hmny.io";
