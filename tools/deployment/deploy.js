@@ -19,12 +19,12 @@ const argv = yargs
     .argv;
 
 // Libs
-const Network = require('../network.js');
+const { NetworkEnv } = require("@harmony-swoop/utils");
 const { getAddress } = require('@harmony-js/crypto');
 
 // Vars
-const network = new Network(argv.network);
-network.hmy.wallet.addByPrivateKey(network.privateKeys.deployer)
+const network = new NetworkEnv(argv.network);
+network.client.wallet.addByPrivateKey(network.accounts.deployer.privateKey);
 
 const deployed = {};
 
@@ -60,9 +60,9 @@ async function deploy() {
 async function deployContract(contractName, args) {
   let contractJson = require(`../../build/contracts/${contractName}`)
 
-  let contract = network.hmy.contracts.createContract(contractJson.abi)
-  contract.wallet.addByPrivateKey(network.privateKeys.deployer)
-  // contract.wallet.setSigner(network.privateKeys.deployer);
+  let contract = network.client.contracts.createContract(contractJson.abi)
+  contract.wallet.addByPrivateKey(network.accounts.deployer.privateKey)
+  // contract.wallet.setSigner(network.accounts.deployer.privateKey);
   
   let options = {
     arguments: args,
