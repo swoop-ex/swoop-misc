@@ -1,6 +1,6 @@
 {
   "name": "@harmony-swoop/misc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Misc smart contracts to support Swoop",
   "engines": {
     "node": ">=10"
@@ -14,13 +14,15 @@
     "build",
     "contracts"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@harmony-js/core": "^0.1.50",
+    "@harmony-swoop/utils": "^1.0.0",
     "@openzeppelin/contracts": "^3.2.0",
     "@types/chai": "^4.2.6",
     "@types/mocha": "^5.2.7",
     "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
     "ethereum-waffle": "^2.4.1",
     "ethereumjs-util": "^6.2.0",
     "mocha": "^6.2.2",
@@ -29,11 +31,8 @@
     "rimraf": "^3.0.0",
     "solc": "0.6.6",
     "ts-node": "^8.5.4",
-    "typescript": "^3.7.3",
     "tslib": "^2.0.0",
-    "@harmony-js/core": "^0.1.50",
-    "@harmony-swoop/utils": "^1.0.0",
-    "dotenv": "^8.2.0"
+    "typescript": "^3.7.3"
   },
   "scripts": {
     "lint": "yarn prettier ./test/*.ts --check",
