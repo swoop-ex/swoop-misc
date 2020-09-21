@@ -130,6 +130,11 @@
     "@types/bn.js" "^4.11.3"
     bn.js "^4.11.8"
 
+"@harmony-swoop/utils@^1.0.0":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@harmony-swoop/utils/-/utils-1.0.4.tgz#3cfff9207b27ecf1b7842f628ff91efeeb190f6d"
+  integrity sha512-zAyjtUyNE10bdNXTXMT6H0qMPenhlO7oOSvQqvF7oIsxDz5TObXVo1mheQRyXqNg/N7VIbPsxh24vlu8fG4RDQ==
+
 "@openzeppelin/contracts@^3.2.0":
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-3.2.0.tgz#3e6b3a7662d8ed64271ade96ef42655db983fd9d"
@@ -1515,9 +1520,9 @@ camelcase@^5.0.0:
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
 caniuse-lite@^1.0.30000844:
-  version "1.0.30001131"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001131.tgz#afad8a28fc2b7a0d3ae9407e71085a0ead905d54"
-  integrity sha512-4QYi6Mal4MMfQMSqGIRPGbKIbZygeN83QsWq1ixpUwvtfgAZot5BrCKzGygvZaV+CnELdTwD0S4cqUNozq7/Cw==
+  version "1.0.30001133"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001133.tgz#ec564c5495311299eb05245e252d589a84acd95e"
+  integrity sha512-s3XAUFaC/ntDb1O3lcw9K8MPeOW7KO3z9+GzAoBxfz1B0VdacXPMKgFUtG4KIsgmnbexmi013s9miVu4h+qMHw==
 
 caseless@~0.12.0:
   version "0.12.0"
