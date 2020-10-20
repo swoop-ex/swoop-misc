@@ -19,7 +19,7 @@ const argv = yargs
     .argv;
 
 // Libs
-const { NetworkEnv } = require("@harmony-swoop/utils");
+const { NetworkEnv } = require("@swoop-exchange/utils");
 const { getAddress } = require('@harmony-js/crypto');
 
 // Vars
