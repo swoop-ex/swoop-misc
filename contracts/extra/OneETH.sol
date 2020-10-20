@@ -13,6 +13,6 @@ contract OneETH is ERC20PresetMinterPauser, Ownable {
   using SafeMath for uint;
 
   constructor() public ERC20PresetMinterPauser("OneETH", "1ETH") {
-      _mint(msg.sender, 1000000000000000000000000);
+      _mint(msg.sender, 100000000000000000000000000);
   }
 }
