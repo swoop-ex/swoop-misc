@@ -13,6 +13,6 @@ contract OneChainlink is ERC20PresetMinterPauser, Ownable {
   using SafeMath for uint;
 
   constructor() public ERC20PresetMinterPauser("OneChainlink", "1LINK") {
-      _mint(msg.sender, 1000000000000000000000000);
+      _mint(msg.sender, 100000000000000000000000000);
   }
 }
