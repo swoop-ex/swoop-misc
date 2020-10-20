@@ -1,6 +1,6 @@
 {
   "name": "@harmony-swoop/misc",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Misc smart contracts to support Swoop",
   "engines": {
     "node": ">=10"
