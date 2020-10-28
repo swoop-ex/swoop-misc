@@ -8,7 +8,7 @@
   "homepage": "https://swoop.exchange",
   "repository": {
     "type": "git",
-    "url": "https://github.com/harmony-one/swoop-misc"
+    "url": "https://github.com/swoop-ex/swoop-misc"
   },
   "files": [
     "build",
