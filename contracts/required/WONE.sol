@@ -13,7 +13,7 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-pragma solidity =0.6.6;
+pragma solidity >=0.4.21 <0.6.0;
 
 contract WONE {
     string public name     = "Wrapped ONE";
@@ -28,7 +28,7 @@ contract WONE {
     mapping (address => uint)                       public  balanceOf;
     mapping (address => mapping (address => uint))  public  allowance;
 
-    receive() external payable {
+    function() external payable {
         deposit();
     }
     function deposit() public payable {

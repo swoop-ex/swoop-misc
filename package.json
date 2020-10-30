@@ -1,6 +1,6 @@
 {
   "name": "@swoop-exchange/misc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Misc smart contracts to support Swoop",
   "engines": {
     "node": ">=10"
@@ -17,8 +17,8 @@
   "dependencies": {},
   "devDependencies": {
     "@harmony-js/core": "^0.1.50",
-    "@swoop-exchange/utils": "^1.0.0",
-    "@openzeppelin/contracts": "^3.2.0",
+    "@openzeppelin/contracts": "^2.5.1",
+    "@swoop-exchange/utils": "=1.0.1",
     "@types/chai": "^4.2.6",
     "@types/mocha": "^5.2.7",
     "chai": "^4.2.0",
@@ -29,7 +29,7 @@
     "ncp": "^2.0.0",
     "prettier": "^1.19.1",
     "rimraf": "^3.0.0",
-    "solc": "0.6.6",
+    "solc": "^0.5.16",
     "ts-node": "^8.5.4",
     "tslib": "^2.0.0",
     "typescript": "^3.7.3"
