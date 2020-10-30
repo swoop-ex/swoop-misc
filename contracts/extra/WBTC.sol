@@ -7,4 +7,8 @@ import "@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20Pausable.sol";
 import "WBTC/WrappedToken.sol";
 
-contract WBTC is WrappedToken, ERC20Detailed("Wrapped BTC", "WBTC", 8) { }
+contract WBTC is WrappedToken, ERC20Detailed {
+  constructor() public ERC20Detailed("Wrapped BTC", "WBTC", 8) {
+    _mint(msg.sender, 2100000000000000);
+  }
+}

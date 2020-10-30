@@ -7,8 +7,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20Pausable.sol";
 import "@openzeppelin/contracts/ownership/Ownable.sol";
 
-contract WrappedToken is ERC20,
-  ERC20Mintable, ERC20Burnable, ERC20Pausable, Ownable {
+contract WrappedToken is ERC20, ERC20Mintable, ERC20Burnable, ERC20Pausable, Ownable {
 
   function burn(uint value) public onlyOwner {
     super.burn(value);
