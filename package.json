@@ -1,6 +1,6 @@
 {
   "name": "@swoop-exchange/misc",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Misc smart contracts to support Swoop",
   "engines": {
     "node": ">=10"
